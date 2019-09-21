@@ -22,7 +22,7 @@ header {
     line-height: 2;
 }
 header, footer {
-    background-color: rgb(rgb(124, 75, 12), green, blue);
+    background-color: rgb(124, 75, 12);
     color: #fff;
     text-align: center;
     border-radius: 15px;
