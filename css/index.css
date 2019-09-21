@@ -1,8 +1,48 @@
 element.style {
-    }
-    header h1 {
-        margin-left: 220px;
-    }
-    header {
-        background-color: red;
-    }
+}
+html {
+    display: block;
+    color: -internal-root-color;
+}
+head {
+    display: none;
+}
+html {
+    color: -internal-root-color;
+}
+body {
+    font-size: 18px;
+    font-family: 'Nobile', sans-serif;
+    line-height: 1.5;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+html {
+    color: -internal-root-color;
+}header {
+    font-size: 24px;
+    height: 100px;
+    line-height: 2;
+}
+header, footer {
+    background-color: rgb(79, 63, 94);
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+}
+header, main, footer {
+    margin: 1.25rem auto;
+    max-width: 1080px;
+}
+header {
+    display: block;
+}
+body {
+    font-size: 18px;
+    font-family: 'Nobile', sans-serif;
+    line-height: 1.5;
+}
+html {
+    color: -internal-root-color;
