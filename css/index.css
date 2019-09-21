@@ -3,3 +3,6 @@ element.style {
     header h1 {
         margin-left: 220px;
     }
+    header {
+        background-color: red;
+    }
