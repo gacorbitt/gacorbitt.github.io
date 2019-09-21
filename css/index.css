@@ -7,9 +7,6 @@ html {
 head {
     display: none;
 }
-html {
-    color: -internal-root-color;
-}
 body {
     font-size: 18px;
     font-family: 'Nobile', sans-serif;
@@ -19,15 +16,13 @@ body {
     display: block;
     margin: 8px;
 }
-html {
-    color: -internal-root-color;
-}header {
+header {
     font-size: 24px;
     height: 100px;
     line-height: 2;
 }
 header, footer {
-    background-color: rgb(79, 63, 94);
+    background-color: red;
     color: #fff;
     text-align: center;
     border-radius: 15px;
@@ -44,5 +39,3 @@ body {
     font-family: 'Nobile', sans-serif;
     line-height: 1.5;
 }
-html {
-    color: -internal-root-color;
