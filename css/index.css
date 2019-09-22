@@ -9,10 +9,8 @@ head {
 }
 body {
     font-size: 18px;
-    font-family: 'Nobile', sans-serif;
+    font-family: "Permanent Marker", Arial, sans-serif;
     line-height: 1.5;
-}
-body {
     display: block;
     margin: 8px;
 }
@@ -20,6 +18,7 @@ header {
     font-size: 24px;
     height: 100px;
     line-height: 2;
+    display: block;
 }
 header, footer {
     background-color: rgb(124, 75, 12);
@@ -30,9 +29,6 @@ header, footer {
 header, main, footer {
     margin: 1.25rem auto;
     max-width: 1080px;
-}
-header {
-    display: block;
 }
 header img {
     float: right;
