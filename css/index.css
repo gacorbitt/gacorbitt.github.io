@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Permanent+Marker&display=swap');
 element.style {
 }
 html {
     display: block;
     color: -internal-root-color;
+}
+script {
+    display: none;
 }
 head {
     display: none;
@@ -14,15 +18,21 @@ body {
     display: block;
     margin: 8px;
 }
+main {
+    display: block;
+}
 header {
     font-size: 24px;
     height: 100px;
     line-height: 2;
     display: block;
 }
+footer {
+    padding: 10px;
+}
 header, footer {
     background-color: rgb(124, 75, 12);
-    color: #fff;
+    color: #1a345b;
     text-align: center;
     border-radius: 15px;
 }
@@ -32,7 +42,7 @@ header, main, footer {
 }
 header img {
     float: right;
-    width 200px;
+    width 250px;
     margin: 20px;
 }
 header h1 {
@@ -47,12 +57,4 @@ h1 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-main {
-    display: block;
-}
-footer {
-    padding: 10px;
-}
-script {
-    display: none;
-}
+
