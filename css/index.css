@@ -13,7 +13,7 @@ head {
 }
 body {
     font-size: 18px;
-    font-family: "Permanent Marker", Arial, sans-serif;
+    font-family:
     line-height: 1.5;
     display: block;
     margin: 8px;
@@ -23,6 +23,7 @@ main {
 }
 header {
     font-size: 24px;
+    font-family: "Permanent Marker", Arial, sans-serif;
     height: 100px;
     line-height: 2;
     display: block;
