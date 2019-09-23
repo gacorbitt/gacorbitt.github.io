@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Josefin+Sans&display=swap"');
 element.style {
 }
 html {
@@ -23,7 +23,7 @@ main {
 }
 header {
     font-size: 24px;
-    font-family: "Permanent Marker", Arial, sans-serif;
+    font-family: "Josefins Sans", Arial, sans-serif;
     height: 100px;
     line-height: 2;
     display: block;
