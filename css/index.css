@@ -43,7 +43,7 @@ header, main, footer {
 }
 header img {
     float: right;
-    width 200px;
+    width: 250px;
     margin: 25px;
 }
 header h1 {
