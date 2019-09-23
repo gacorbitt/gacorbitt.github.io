@@ -45,6 +45,7 @@ header img {
     float: right;
     width: 250px;
     margin: 25px;
+    border-radius: 15px;
 }
 header h1 {
     margin-left: 200px;
