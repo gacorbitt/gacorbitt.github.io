@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Goblin+One|Supermercado+One&display=swap');
 element.style {
 }
 html {
@@ -13,7 +13,7 @@ head {
 }
 body {
     font-size: 18px;
-    font-family: "Noto Serif", Arial, sans-serif;
+    font-family: "Supermercado One", Arial, cursive;
     line-height: 1.5;
     display: block;
     margin: 8px;
@@ -23,7 +23,7 @@ main {
 }
 header {
     font-size: 24px;
-    font-family: "Vast Shadow", Arial, cursive;
+    font-family: "Goblin One", Arial, cursive;
     height: 100px;
     line-height: 2;
     display: block;
@@ -52,7 +52,7 @@ header h1 {
 }
 h1 {
     display: block;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-block-start: 0.65em;
     margin-block-end: 0.65em;
     margin-inline-start: 0px;
