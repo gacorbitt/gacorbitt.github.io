@@ -16,6 +16,7 @@ body {
     line-height: 1.5;
     display: block;
     margin: 8px;
+    height: 100%;
 }
 main {
     display: block;
@@ -43,7 +44,7 @@ header, main, footer {
 }
 header img {
     float: right;
-    width: 250px;
+    width: 200px;
     margin: 25px;
     border-radius: 15px;
 }
@@ -52,13 +53,13 @@ header h1 {
 }
 h1 {
     display: block;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 h2 {
-    font-size: 1em;
+    font-size: 1rem;
 }
 .update {
-    font-size: .8em;
+    font-size: .8rem;
     color: yellow;
 }
