@@ -23,7 +23,6 @@ main {
 }
 header {
     font-size: 24px;
-    font-family: "Goblin One", Arial, cursive;
     height: 100px;
     line-height: 2;
     display: block;
@@ -32,8 +31,9 @@ footer {
     padding: 15px;
 }
 header, footer {
-    background-color: rgb(124, 75, 12);
+    background-color: rgb(255, 145, 0);
     color: #1a345b;
+    font-family: "Goblin One", Arial, cursive;
     text-align: center;
     border-radius: 15px;
 }
