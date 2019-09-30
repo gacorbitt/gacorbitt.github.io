@@ -38,6 +38,7 @@ header, footer {
     text-align: center;
     max-width: 45rem;
     min-width: 15rem;
+    border: 2px solid #1a345b;
 }
 header, main, footer {
     margin: 1.25rem auto;
