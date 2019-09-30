@@ -8,4 +8,11 @@
    header, footer {
        border-radius: 15px;
    }
+   header, footer {
+    border-radius: 15px;
+}
+header img {
+    float: right;
+    border-radius: 15px;
+}
 }
