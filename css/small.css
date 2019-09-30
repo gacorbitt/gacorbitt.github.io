@@ -22,7 +22,7 @@ main {
     display: block;
 }
 header {
-    height: 100px;
+    height: 100%;
     line-height: 2;
     display: block;
     padding-top: 5px;
