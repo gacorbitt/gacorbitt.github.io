@@ -37,6 +37,7 @@ header, footer {
     font-family: "Goblin One", Arial, cursive;
     text-align: center;
     border-radius: 15px;
+    max-width: 45rem;
 }
 header, main, footer {
     margin: 1.25rem auto;

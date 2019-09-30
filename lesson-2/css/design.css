@@ -12,6 +12,7 @@ header, footer {
     font-family: "Goblin One", Arial, cursive;
     text-align: center;
     border-radius: 15px;
+    width: auto;
 }
 footer {
     padding: 1em;
