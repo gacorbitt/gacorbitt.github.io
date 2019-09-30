@@ -31,10 +31,6 @@ main section {
   border: 2px solid rgb(167, 94, 0);
   background-color: rgb(230 , 213, 188);
 }
-section:nth-child(2) {
-	display: block;
-	margin: 0.5rem;
-}
 h1 {
   font-size: 1.25rem;
 }
