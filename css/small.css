@@ -36,8 +36,8 @@ header, footer {
     color: #1a345b;
     font-family: "Goblin One", Arial, cursive;
     text-align: center;
-    border-radius: 15px;
     max-width: 45rem;
+    min-width: 15rem;
 }
 header, main, footer {
     margin: 1.25rem auto;
