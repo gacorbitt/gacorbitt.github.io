@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Goblin+One|Supermercado+One&display=swap');
+element.style {
+}
+header {
+    height: 100px;
+    line-height: 2;
+    display: block;
+}
+header, footer {
+    color: rgb(167, 94, 0);
+    background-color: #1a345b;
+    font-family: "Goblin One", Arial, cursive;
+    text-align: center;
+    border-radius: 15px;
+}
+.update {
+    font-size: .8rem;
+    color: red;
+}
+main {
+    display: grid;
+}
