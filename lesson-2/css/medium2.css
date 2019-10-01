@@ -5,7 +5,6 @@
     main section {
       margin-bottom: 10px;
     }
-
     section:nth-child(3){
     grid-column: span 2;
 }
