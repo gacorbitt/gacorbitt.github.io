@@ -12,8 +12,7 @@ nav li a {
 img {
     display: block;
     text-align: left;
-    padding-left: 100px;
-    margin-bottom: 100px;
+    padding: 20px;
 }
 header, footer {
     display: flex;
@@ -23,12 +22,17 @@ header, footer {
     text-align: center;
     max-width: 1080px;
     margin: auto;
+    font-size: 1em;
+}
+header {
+    font-size: 1.3em;
 }
 h1 {
     text-align: center;
 }
 h3 {
     text-align: center;
+    font-size: 2em;
 }
 nav {
     margin-left: 200px;
@@ -44,5 +48,49 @@ main {
 }
 table, td {
     font-size: 1em;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+blockquote {
+    margin-left: 100px;
+}
+.scenario {
+    font-size: 1em;
+}
+.palette {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+tr:nth-child(1) {
+    font-size: 40px;
+    font-family: "Be Vietnam", Arial, sans-serif;
+}
+tr:nth-child(2) {
+    font-size: 30px;
+    font-family: "Be Vietnam", Arial, sans-serif;
+}
+tr:nth-child(3) {
+    font-size: 20px;
+    font-family: "Big Shoulder Display", Arial, cursive;
+}
+tr:nth-child(4) {
+    font-size: 30px;
+    font-family: "Big Shoulder Display", Arial, cursive;
+}
+tr:nth-child(5) {
+    font-size: 20px;
+    font-family: "Big Shoulder Display", Arial, cursive;
+}
+tr:nth-child(6) {
+    font-size: 20px;
+    font-family: "Big Shoulder Display", Arial, cursive;
+}
+tr:nth-child(7) {
+    font-size: 16px;
+    font-family: "Big Shoulder Display", Arial, cursive;
 }
 }
