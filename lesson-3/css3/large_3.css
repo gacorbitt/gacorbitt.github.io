@@ -5,4 +5,28 @@
         height: 400px;
         margin: auto;
 }
+tr:nth-child(1) {
+    font-size: 40px;
+    font-family: "Be Vietnam", Arial, sans-serif;
+}
+tr:nth-child(2) {
+    font-size: 30px;
+    font-family: "Be Vietnam", Arial, sans-serif;
+}
+tr:nth-child(3) {
+    font-size: 20px;
+    font-family: "Big Shoulder Display", Arial, cursive;
+}
+tr:nth-child(4) {
+    font-size: 30px;
+    font-family: "Big Shoulder Display", Arial, cursive;
+}
+tr:nth-child(5) {
+    font-size: 20px;
+    font-family: "Big Shoulder Display", Arial, cursive;
+}
+tr:nth-child(6) {
+    font-size: 20px;
+    font-family: "Big Shoulder Display", Arial, cursive;
+}
 }
