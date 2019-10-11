@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Cinzel&display=swap');
+element.style {
+}
+
+body {
+	padding: 0;
+    margin: 0;
+    font-family: "Bree Serif", Arial, serif;
+}
+
+header, footer{
+    background-color: #2365ae;
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    border: 2px solid #d36135;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+header img {
+	width: 100px;
+	height: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 0;
+    color: #f5ff90;
+    max-width: 100%;
+    font-size: .8rem;
+}
+footer a {
+    color: yellow;
+}
+
+.update {
+    color: red;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    padding-right: 5px;
+    color: #f5ff90;
+}
+
+.motto {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: #d36135;
+    margin-left: 20px;
+    padding-left: 5px;
+	font-size: .9rem;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+    background-color: #d36135;
+    border-radius: 20px;
+    border: 2px solid #2365ae;
+}
+
+nav ul li.active a {
+    color: #f5ff90;
+    background-color: #2365ae;
+}
+
+.register {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.register li:first-child {
+	display: block;
+}
+.register li {
+    display: none;
+    font-size: 1em;
+}
+.register a {
+	display: block;
+	color: #2365ae;
+	padding: 0.75rem;
+	text-align: center;
+    text-decoration: none;
+    font-size: 1.6em;
+}
+.register a:hover {
+    color: #d36135;
+	background-color: rgba(35, 101, 174, 0.5);
+	font-weight: 700;
+}   
+
+.responsive li {
+	display: block;
+}
+
+.areaName {
+    display: block;
+    text-align: center;
+    color: #2365ae;
+}
+
+.content {
+    font-size: 1.5em;
+    font-family: "Cinzel", Arial, serif;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #2365ae;
+    background-color: rgb(120, 143, 168);
+}

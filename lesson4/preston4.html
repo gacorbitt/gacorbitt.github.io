@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preston Site Page in CIT 230: Web Front-End Development at Brigham Young University-Idaho">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston Idaho</title>
+    <link href="/lesson4/css/normalize4.css" rel="stylesheet">
+    <link href="/lesson4/css/small4.css" rel="stylesheet">
+    <link href="/lesson4/css/medium4.css" rel="stylesheet">
+    <link href="/lesson4/css/large4.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+            <picture>
+                <img src="/lesson4/images/weather.png" alt="Logo">
+            </picture>
+            <section class="headings">
+                <h1>Weather You Like It</h1>
+                <div class="motto">The Layer You Need in Idaho</div>
+            </section>
+        </header>
+    <nav>
+            <ul id="hamburger" class="register hide">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li class="active"><a href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Center</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+    </nav><br>
+    <main>
+        <div class="areaName"><h1>Preston Idaho</h1></div><br>
+        <div class="content">Weather Summary with Hero Image</div>
+        <div class="content forecast">Five Day Forecast</div>
+        <div class="content">Article</div>
+        <div class="content">Contact Information</div><br>
+    </main>
+    <footer>
+            <p>
+                    &copy; <span id="year"></span> | Greg Corbitt | Nebraska | <a href="https://www.byui.edu/online" target="_blank">BYUI Online</a><br> 
+                   <span class="update">Last Update: <span id="lastUpdate"></span></span>
+                    </p>
+    </footer>
+    <script src="js/menu4.js"></script>
+    <script src="js/update4.js"></script>
+</body>
+
+</html>
