@@ -1,17 +1,11 @@
 @media only screen and (min-width: 32.5em) {
-    footer {
-        border-radius: 20px;
-    }
     footer, main {
         max-width: 35em;
         margin: auto;
     }
-    .forecast {
-        color: yellow;
-    }
-
 	.register {
-		display: flex;
+        display: flex;
+        font-size: .8em;
 	}
 	.register li:first-child {
 		display: none;
@@ -21,6 +15,6 @@
 		flex: 1 1 100%;
 	}
 	.register li a {
-		color: yellow;
+		color: #d36135;
 	}
 }

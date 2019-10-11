@@ -14,11 +14,7 @@ header, footer{
 	display: flex;
 	align-items: center;
     justify-content: center;
-    border: 2px solid #d36135;
-}
-
-header {
-    margin-bottom: 10px;
+    border: 2px solid #2365ae;
 }
 
 header img {
@@ -68,13 +64,12 @@ footer a {
 nav {
 	margin: 0 auto;
 	max-width: 100%;
-    background-color: #d36135;
-    border-radius: 20px;
+    background-color: #f5ff90;
     border: 2px solid #2365ae;
 }
 
 nav ul li.active a {
-    color: #f5ff90;
+    color: white;
     background-color: #2365ae;
 }
 
@@ -122,4 +117,7 @@ nav ul li.active a {
     margin: 20px auto;
     border: 2px solid #2365ae;
     background-color: rgb(120, 143, 168);
+}
+.forecast {
+    color: yellow;
 }
