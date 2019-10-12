@@ -27,17 +27,13 @@ footer {
     flex-direction: column;
     justify-content: center;
     margin-top: 10px;
-    padding: 0;
+    padding: 10px;
     color: #f5ff90;
     max-width: 100%;
     font-size: .8rem;
 }
 footer a {
     color: yellow;
-}
-
-.update {
-    color: red;
 }
 
 .headings {
@@ -55,7 +51,7 @@ footer a {
 .motto {
 	font-style: italic;
 	letter-spacing: 1pt;
-	color: #d36135;
+	color: white;
     margin-left: 20px;
     padding-left: 5px;
 	font-size: .9rem;
