@@ -117,6 +117,7 @@ nav ul li.active a {
     margin: 20px auto;
     border: 2px solid #2365ae;
     background-color: rgb(120, 143, 168);
+    padding: 10px;
 }
 .forecast {
     color: yellow;
