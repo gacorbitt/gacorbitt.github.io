@@ -1,0 +1,21 @@
+@media only screen and (min-width: 34em) {
+    footer, main {
+        max-width: 35em;
+        margin: auto;
+    }
+	.register {
+        display: flex;
+        font-size: .8em;
+	}
+	.register li:first-child {
+		display: none;
+	}
+	.register li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.register li a {
+        color: #d36135;
+        font-size: 1em;
+	}
+}
