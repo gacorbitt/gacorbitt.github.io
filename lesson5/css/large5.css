@@ -9,4 +9,8 @@
 .cropland {
     height: 300px;
 }
+.contact {
+    max-width: 60em;
+    margin: auto;
+}
 }

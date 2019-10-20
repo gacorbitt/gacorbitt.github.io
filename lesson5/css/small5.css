@@ -193,3 +193,36 @@ nav ul li.active a {
           font-size: 1.2em;
           padding: 20px;
       }
+      #banner {
+        position: relative;
+        text-align: center;
+        color: #f5f104;
+        background-color: rgb(121, 5, 5);
+        padding: 20px;
+        font-size: 2em;
+      }
+      .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #2365ae;
+        color: white;
+        padding: 10px;
+        margin-bottom: 0;
+      }
+      
+      .prestonMap {
+        display: none;
+      }
+      
+      .preston {
+        display: flex;
+        width: 100%;
+        font-size: 2em;
+        justify-content: center;
+        align-items: center;
+    }
+    .note {
+        padding: 20px;
+    }
+      

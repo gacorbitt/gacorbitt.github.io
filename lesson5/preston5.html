@@ -14,7 +14,10 @@
     <link href="/lesson5/css/large5.css" rel="stylesheet">
 </head>
 
-<body>
+<body onload="banner()">
+        <aside id="banner">
+          <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </aside>
     <header>
             <picture>
                 <img src="/images/Weather.png" alt="Logo">
@@ -64,7 +67,8 @@
         <div class="title"><h2>About BYUI</h2></div>
         <div>
                 <img class="byui" src="/images/John_Taylor_building.jpg" alt="John Taylor building at BYUI">
-            <p class="text">
+                
+                            <p class="text">
             On June 21, 2000, the LDS Church announced that Ricks College would become a four-year institution 
             known as Brigham Young University–Idaho. This change became official just over a year later on August 10, 2001. 
             Among the changes were the elimination of the intercollegiate athletic program and the institution of a larger 
@@ -73,14 +77,25 @@
             and winter semesters. Among other changes to campus facilities to accommodate the associated growth, the 
             Hyrum Manwaring Student Center was renovated and enlarged and a new auditorium building, the BYU-Idaho Center, 
             with seating for 15,000 was built. The buildings were dedicated in December 2010.
-            </p>
+            <p class="note"><emph>Image of John Taylor Building and text courtesy of Wikipedia</emph></p>
+            </p><br><br>
         </div>
-        <div class="contact"><h2>Contact Information</h2></div><br>
+        <div class="contact">
+                <img class="prestonMap" src="/images/preston.JPG" alt="map of Preston Idaho">
+                <div class="preston">
+                  <div>
+                    <address>
+                      <strong>Weather You Like It</strong><br>17511 Ridgemont St<br>Preston, ID 83263<br>208.208.0208<br>
+                    </address>  
+                  </div>   
+                </div> 
+              </div>
     </main>
     <footer>
                     &copy; Weather You Like It | Greg Corbitt
                     <p id="today"></p>
     </footer>
+    <script src="js/banner5.js"></script>
     <script src="js/menu5.js"></script>
     <script src="js/date5.js"></script>
 </body>
