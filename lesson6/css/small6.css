@@ -125,14 +125,13 @@ nav ul li.active a {
 }
 
 .local {
-    margin: auto;
+    margin: 10px auto;
     position: relative;
 }
 
-.cropland {
-    margin: auto;	
-    max-width: 30em;
-    height: 150px;
+.resp {
+    margin: 0 20px 0 0 auto;	
+    width: 100%;
 }
 
 /*.content {

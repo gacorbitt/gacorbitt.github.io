@@ -23,8 +23,14 @@
 		max-width: 960px;
 		height: 250px;
 	}
-	.local {margin: 10px auto;position: relative;}
-	h1, h2, p {margin: 0;}
+	.local {
+		margin: 10px auto;
+		position: relative;
+	}
+
+	h1, h2, p {
+		margin: 0;
+	}
 	
 	.summary {
 		position: absolute;
