@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preston Site Page in CIT 230: Web Front-End Development at Brigham Young University-Idaho">
+    <link href="/favicon/favicon.ico" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston Idaho</title>
+    <link href="css/normalize7.css" rel="stylesheet">
+    <link href="css/small7.css" rel="stylesheet">
+    <link href="css/medium7.css" rel="stylesheet">
+    <link href="css/large7.css" rel="stylesheet">
+    <link href="css/lazyload.css" rel="stylesheet">
+</head>
+
+<body onload="banner()">
+        <aside id="banner">
+          <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </aside>
+    <header>
+            <picture>
+                <img src="/images/weather2.png" alt="Logo">
+            </picture>
+            <section class="headings">
+                <h1>Weather You Like It</h1>
+                <div class="motto">The Layer You Need in Idaho</div>
+            </section>
+        </header>
+    <nav>
+            <ul id="primaryNav" class="register hide">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Center</a></li>
+                    <li class="active"><a href="#">Gallery</a></li>
+                </ul>
+    </nav><br>
+    <main>
+        <div class="areaName"><h1>Weather Gallery</h1></div><br>
+        <section id="gallery">
+            <figure>
+                    <img src="images/grey.jpg" data-src="images/autumn.jpeg" alt="Autumn Path Through the Trees">
+                <figcaption class="caption">Autumn Path Through the Trees</figcaption>
+            </figure>
+            <figure>
+                <img src="images/grey.jpg" data-src="images/evening.jpg" alt="Evening Storm Moving In">
+            <figcaption>Evening Storm Moving In</figcaption>
+        </figure>
+        <figure>
+            <img src="images/grey.jpg" data-src="images/lightning.jpeg" alt="Lightning Strike">
+        <figcaption>Lightning Strike</figcaption>
+    </figure>
+    <figure>
+        <img src="images/grey.jpg" data-src="images/nightlight.jpeg" alt="Lighting Up the Clouds">
+    <figcaption>Lighting Up the Clouds</figcaption>
+</figure>
+<figure>
+    <img src="images/grey.jpg" data-src="images/rain.jpeg" alt="Raindrops on Glass">
+<figcaption>Raindrops on Glass</figcaption>
+</figure>
+<figure>
+    <img src="images/grey.jpg" data-src="images/snow.jpeg" alt="Bench Covered in Snow">
+<figcaption>Bench Covered in Snow</figcaption>
+</figure>
+<figure>
+    <img src="images/grey.jpg" data-src="images/spring.jpeg" alt="Mountainous Spring Morning">
+<figcaption>Mountainous Spring Morning</figcaption>
+</figure>
+<figure>
+    <img src="images/grey.jpg" data-src="images/sunny.jpeg" alt="Summer Sun Through the Clouds">
+<figcaption>Summer Sun Through the Clouds</figcaption>
+</figure>
+<figure>
+    <img src="images/grey.jpg" data-src="images/winter.jpeg" alt="Field Covered in Snow">
+<figcaption>Winter Morning</figcaption>
+</figure><br><br><br>
+        
+    </main>
+    <footer>
+                    &copy; Weather You Like It | Greg Corbitt
+                    <p id="today"></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont7.js"></script>
+    <script src="js/windchill7.js"></script>
+    <script src="js/banner7.js"></script>
+    <script src="js/menu7.js"></script>
+    <script src="js/date7.js"></script>
+    <script src="js/lazyload.js"></script>
+</body>
+
+</html>
