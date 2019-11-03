@@ -4,7 +4,7 @@ const imgOptions = {
     rootMargin: "0px 0px 0px 0px"
 };
 
-function firstLoadImg(img) {
+function loadImg(img) {
     const src = img.getAttribute("data-src");
     if(!src) {
         return;
@@ -20,7 +20,7 @@ const imgObserve = new IntersectionObserver((entries, imgObserve) => {
         if(!entry.isIntersecting) {
             return;
         } else {
-            firstLoadImg(entry.target);
+            loadImg(entry.target);
             imgObserve.unobserve(entry.target);
         }
     })
