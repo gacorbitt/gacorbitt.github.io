@@ -4,7 +4,7 @@ table {
     margin: 25px auto;
     text-align: center;
     border-collapse: collapse;
-    box-shadow: 50px 50px 50px 50px gray;
+    box-shadow: 10px 10px 10px gray;
     font-family: 'Ubuntu', sans-serif;
 }
 
