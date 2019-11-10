@@ -272,3 +272,83 @@ img {
     filter: blur(0em);
     transition: filter 1.5s;
 }
+
+/*Storm Center*/
+
+form {
+    max-width: 1080px;
+    margin: auto;
+}
+
+form fieldset {
+    width: 90%;
+    border: 5px solid #2365ae;
+    padding: 5px;
+    border-radius: 15px;
+    background-color:#f5ff90;
+}
+
+form legend {
+    color: #d36135;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+form label.info, form label.info input, form label.info select, form textarea {
+    display: block;
+    width: 90%;
+    max-width: 20rem;
+    font-size: 1.2em;
+    padding: 20px;
+    color: #2365ae;   
+}
+
+form label.info input, form label.info select, form textarea {
+    border: 1px solid #2365ae;
+    border-radius: 15px;
+}
+
+#severityRating {
+    font-size: 1.2em;
+    color: red;
+}
+
+.rating {
+    font-size: 1.2em;
+    color: #2365ae;
+    padding: 20px;
+}
+
+form label.severity {
+    display: block;
+    padding: 10px;
+}
+
+.danger, .severity {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2365ae;
+    padding: 20px;
+}
+
+.submit {
+    text-align: center;
+    border: 5px solid red;
+    background-color: white;
+    color: red;
+    border-radius: 25px;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+/* Thank you page */
+
+.thanks {
+    color: #2365ae;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    padding: 20px;
+    margin-bottom: 50px;
+}

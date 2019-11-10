@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preston Site Page in CIT 230: Web Front-End Development at Brigham Young University-Idaho">
+    <link href="/favicon/favicon.ico" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston Idaho</title>
+    <link href="css/normalize8.css" rel="stylesheet">
+    <link href="css/small8.css" rel="stylesheet">
+    <link href="css/medium8.css" rel="stylesheet">
+    <link href="css/large8.css" rel="stylesheet">
+    <link href="css/lazyload8.css" rel="stylesheet">
+</head>
+
+<body onload="banner()">
+        <aside id="banner">
+          <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </aside>
+    <header>
+            <picture>
+                <img src="/images/weather2.png" alt="Logo">
+            </picture>
+            <section class="headings">
+                <h1>Weather You Like It</h1>
+                <div class="motto">The Layer You Need in Idaho</div>
+            </section>
+        </header>
+    <nav>
+            <ul id="primaryNav" class="register hide">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/lesson5/preston5.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li class="active"><a href="#">Storm Center</a></li>
+                    <li><a href="/lesson7/gallery7.html">Gallery</a></li>
+                </ul>
+    </nav><br>
+    <main>
+
+        <h1 class="areaName">Storm Center</h1>
+        <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <label class="info">Full Name* <input type="text" name="fullName" required pattern="[A-Z a-z]{5,}"></label>
+                    <label class="info">Phone Number* <input type="tel" name="phone" required></label>
+                    <label class="info">Zip Code* <input type="number" name="zip" required></label> 
+                    <label class="info">Email <input type="email" name="email" placeholder="fullname@email.com"></label>
+                                                     
+                </fieldset>
+
+                <fieldset>
+                    <legend>Storm Information</legend>
+                    
+                    <label class="info">Storm Date<input type="date" name="stormDate"></label>
+                    <label class="info">Storm Type<input type="text" name="stormType" list="stormList">                        
+                        <datalist id="stormList">
+                            <option>Flash Flood</option>
+                            <option>Hail</option>
+                            <option>Hurricane</option>
+                            <option>Thunderstorm</option>
+                            <option>Tornado</option>
+                        </datalist>
+                    </label><br>
+                    
+                    <label class="info">Storm Severity (1-10)</label>
+                    <label class="rating">
+                        <input type="range" name="rating" id="rating" value="5" min="1" max="10" step="1"
+                        oninput="adjustRating(this.value)" 
+                        onchange="adjustRating(this.value)">
+                        <span id="severityRating">5</span>
+                    </label><br>
+                    
+                    <label class="info">Storm Region
+                        <select name="region">
+                            <option value="">Select Region</option>
+                            <option value="fishhaven">Fish Haven</option>
+                            <option value="preston">Preston</option>
+                            <option value="sodasprings">Soda Springs</option>
+                        </select>
+                    </label><br><br>
+                    
+                    <label class="danger">ARE YOU IN DANGER?</label><br>
+                    <label class="severity"><input type="radio" name="danger" value="yes">Yes</label>
+                    <label class="severity"><input type="radio" name="danger" value="no">No</label>
+                    <label class="severity"><input type="radio" name="danger" value="maybe">Maybe</label><br><br>
+                    
+                    <legend class="info">Additional Comments<textarea name="comment" rows="10" cols="50"></textarea></legend>
+
+                </fieldset><br>
+                
+                <input type="submit" value="Report Storm" class="submit">
+            
+            </form><br><br>
+        
+    </main>
+    <footer>
+                    &copy; Weather You Like It | Greg Corbitt
+                    <p id="today"></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont8.js"></script>
+    <script src="js/windchill8.js"></script>
+    <script src="js/banner8.js"></script>
+    <script src="js/menu8.js"></script>
+    <script src="js/date8.js"></script>
+    
+</body>
+
+</html>

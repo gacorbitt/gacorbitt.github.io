@@ -1,0 +1,29 @@
+@media only screen and (min-width: 60em) {
+    main, footer {
+        max-width: 60em;
+         margin: auto;
+    }
+
+.register {
+    font-size: 1.4em;
+}
+
+.cropland {
+    height: 300px;
+}
+
+.contact {
+    max-width: 60em;
+    margin: auto;
+}
+
+#gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 60em;
+    justify-content: center;   
+}
+
+#gallery figure:hover {
+    box-shadow: 0 0 50px blue;
+}
+}
