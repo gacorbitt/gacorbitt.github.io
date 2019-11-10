@@ -21,7 +21,7 @@ tbody th {
 }
 
 th, td {
-    border: 2px solid gray;
+    border: 1px solid #628ca6;
     padding: 10px;
     font-size: 1.2em;
 }
