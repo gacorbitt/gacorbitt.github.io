@@ -1,21 +1,43 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 
-h1{
-    text-align: center;
-    color: rgb(69, 57, 245);
+body {
+    font-family: 'Libre Baskerville', serif;
 }
 
-main{
+section {
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: rgb(116, 107, 247);
+}
+
+main {
     box-shadow: 0 0 15px black;
-    background-color: whitesmoke;
+    background-color: gray;
 }
 
-div{
+div {
     display: grid;
     grid-template-columns: 100%;
 }
 
-img{
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(116, 107, 247);
+}
+
+h2, p {
+    text-align: center;
+}
+
+h2 {
+    color: black
+    font-weight: bold;;
+}
+
+img {
     width: 60%;
     margin: 5px auto;
     text-align: center;
@@ -23,38 +45,20 @@ img{
     box-shadow: 0 0 20px black;
 }
 
-h2, p {
-    text-align: center;
-}
-
-h2{
-    color: rgb(69, 57, 245);
-}
-
-section{
-    align-items: center;
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid black;
-    background-color: rgb(69, 57, 245);
-}
-
-footer{
+footer {
     text-align: center;
     padding: 25px;
 }
 
-@media only screen and (min-width: 34em){
 
-    .cards{
+@media only screen and (min-width: 34em) {
+    .cards {
         grid-template-columns: 50% 50%;
     }
     }
     
-    @media only screen and (min-width: 60em){
-    
-    .cards{
+    @media only screen and (min-width: 60em) {
+    .cards {
         grid-template-columns: 25% 25% 25% 25%;
-        }
-        
+    }    
     }
