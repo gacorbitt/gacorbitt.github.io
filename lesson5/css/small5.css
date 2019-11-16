@@ -63,6 +63,15 @@ footer a {
     color: #f5f104;
 }
 
+#banner {
+    font-size: 2em;
+    background-color: green;
+    color: #f5f104;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
 /*menu bar and hamburger*/
 nav {
 	margin: 0 auto;

@@ -63,6 +63,15 @@ footer a {
     color: #f5f104;
 }
 
+#banner {
+    font-size: 2em;
+    background-color: green;
+    color: #f5f104;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
 /*menu bar and hamburger*/
 nav {
 	margin: 0 auto;
@@ -149,7 +158,7 @@ nav ul li.active a {
     color: #f5f104;
 }
 
-summary box
+/* summary box */
 .summary {
     position: absolute;
     top: 25px;
@@ -170,7 +179,7 @@ summary box
     font-size: 1.3em;
 }
 
-five day forecast box
+/* five day forecast box */
 .forecast {
     display: none;
     color: #2365ae;
@@ -209,7 +218,7 @@ five day forecast box
     padding: 0 0 12px;
   }
 
-  article section
+  /* article section */
   .title {
     display: block;
     color: #2365ae;
@@ -227,7 +236,7 @@ five day forecast box
     padding: 20px;
 }
 
-contact section and area map
+/* contact section and area map */
 .contact {
     display: flex;
     flex-direction: row;

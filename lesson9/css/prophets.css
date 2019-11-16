@@ -9,7 +9,7 @@ section {
     margin: 5px;
     padding: 5px;
     border: 2px solid black;
-    background-color: rgb(116, 107, 247);
+    background-color: rgb(247, 182, 108);
 }
 
 main {
@@ -25,7 +25,7 @@ div {
 h1 {
     text-align: center;
     font-weight: bold;
-    color: rgb(116, 107, 247);
+    color: black;
 }
 
 h2, p {
