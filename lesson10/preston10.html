@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preston Site Page in CIT 230: Web Front-End Development at Brigham Young University-Idaho">
+    <link href="/favicon/favicon.ico" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston</title>
+    <link href="css/normalize10.css" rel="stylesheet">
+    <link href="css/small10.css" rel="stylesheet">
+    <link href="css/medium10.css" rel="stylesheet">
+    <link href="css/large10.css" rel="stylesheet">
+</head>
+
+<body onload="banner()">
+        <aside id="banner">
+          <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </aside>
+    <header>
+            <picture>
+                <img src="/images/weather2.png" alt="Logo">
+            </picture>
+            <section class="headings">
+                <h1>Weather You Like It</h1>
+                <div class="motto">The Layer You Need in Idaho</div>
+            </section>
+        </header>
+    <nav>
+            <ul id="primaryNav" class="register hide">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="/lesson9/index9.html">Home</a></li>
+                    <li class="active"><a href="/lesson10/preston10.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="/lesson8/stormcenter8.html">Storm Center</a></li>
+                    <li><a href="/lesson7/gallery7.html">Gallery</a></li>
+                </ul>
+    </nav><br>
+    <main>
+        <div class="areaName"><h1>Preston Idaho</h1></div><br>
+        <div class="local">
+            <figure class="resp">
+                <img src="images/Franklin.jpeg" alt="Franklin picture" sizes="100vw"
+                     srcset="images/Franklin400.jpg 400w,
+                     images/Franklin800.jpg 800w,
+                     images/Franklin1080.jpeg 1080w,">
+            </figure><br>
+            <section class="summary">
+                <h2>Weather Summary</h2>
+                <div>Currently: <span id="current"></span></div>
+                <div>Todays High: <span id="high">&deg;F</span></div>
+                <div>Wind Speed: <span id="windSpeed"> mph</span></div>
+                <div>Wind Chill: <span id="windChill"></span></div>
+                <div>Humidity: <span id="humidity">&percnt</span></div>
+            </section>
+        </div>
+        <div class="forecast"><h2>5 Day Forecast</h2></div>
+        <div class="forecastBox">
+            <div  class="day" id="day0"></div>
+            <div  class="day" id="day1"></div>
+            <div  class="day" id="day2"></div>
+            <div  class="day" id="day3"></div>
+            <div  class="day" id="day4"></div>
+            <div  class="temp"><span id="temp0"></span>&deg;F</div>
+            <div  class="temp"><span id="temp1"></span>&deg;F</div>
+            <div  class="temp"><span id="temp2"></span>&deg;F</div>
+            <div  class="temp"><span id="temp3"></span>&deg;F</div>
+            <div  class="temp"><span id="temp4"></span>&deg;F</div>
+        </div><br><br><br><br>
+        <div class="title"><h2>About BYUI</h2></div>
+        <div>
+                <img class="byui" src="/images/John_Taylor_building.jpg" alt="John Taylor building at BYUI">
+                
+                            <p class="text">
+            On June 21, 2000, the LDS Church announced that Ricks College would become a four-year institution 
+            known as Brigham Young University–Idaho. This change became official just over a year later on August 10, 2001. 
+            Among the changes were the elimination of the intercollegiate athletic program and the institution of a larger 
+            activities and intramural athletics program. The school also established a "three-track" system, which admits 
+            students on a specific track of two semesters (including the Spring semester), rather than the standard fall 
+            and winter semesters. Among other changes to campus facilities to accommodate the associated growth, the 
+            Hyrum Manwaring Student Center was renovated and enlarged and a new auditorium building, the BYU-Idaho Center, 
+            with seating for 15,000 was built. The buildings were dedicated in December 2010.</p>
+            <p class="note">Image of John Taylor Building and text courtesy of Wikipedia</p>
+            <br><br>
+        </div>
+        <div class="contact">
+                <img class="prestonMap" src="/images/preston.JPG" alt="map of Preston Idaho">
+                <div class="preston">
+                  <div>
+                    <address>
+                      <strong>Weather You Like It</strong><br>17511 Ridgemont St<br>Preston, ID 83263<br>208.208.0208<br>
+                    </address>  
+                  </div>   
+                </div> 
+              </div>
+    </main>
+    <footer>
+                    &copy; Weather You Like It | Greg Corbitt
+                    <p id="today"></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/windchill10.js"></script>
+    <script src="js/banner10.js"></script>
+    <script src="js/menu10.js"></script>
+    <script src="js/date10.js"></script>
+    <script src="js/towns.js"></script>
+    <script src="js/currentweather.js"></script>
+    
+</body>
+
+</html>
