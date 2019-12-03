@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preston Site Page in CIT 230: Web Front-End Development at Brigham Young University-Idaho">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body onload="banner()">
+        <aside id="banner">
+          <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </aside>
+    <header>
+            <picture>
+                <img src="/images/weather2.png" alt="Logo">
+            </picture>
+            <section class="headings">
+                <h1>Weather You Like It</h1>
+                <div class="motto">The Layer You Need in Idaho</div>
+            </section>
+        </header>
+    <nav>
+            <ul id="primaryNav" class="register hide">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="/lesson11/home.html">Home</a></li>
+                    <li class="active"><a href="/lesson11/preston.html">Preston</a></li>
+                    <li><a href="/lesson11/sodasprings.html">Soda Springs</a></li>
+                    <li><a href="/lesson11/fishhaven.html">Fish Haven</a></li>
+                    <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+                    <li><a href="/lesson11/gallery.html">Gallery</a></li>
+                </ul>
+    </nav><br>
+    <main>
+        <div class="areaName"><h1>Preston Idaho</h1></div><br>
+        <div class="local">
+            <figure class="resp">
+                <img src="images/preston.jpg" alt="Preston City" sizes="100vw"
+                srcset="images/preston400.jpg 400w,
+                     images/preston800.jpg 800w,
+                     images/preston1080.jpg 1080w,">
+            </figure><br>
+            <section class="summary">
+                <h2>Weather Summary</h2>
+                <div>Currently: <span id="current"></span></div>
+                <div>Todays High: <span id="high"></span>&deg;F</div>
+                <div>Wind Speed: <span id="windSpeed"></span> mph</div>
+                <div>Wind Chill: <span id="chilly"></span></div>
+                <div>Humidity: <span id="humidity"></span>&#37</div>
+            </section>
+        </div><br>
+        <div class="forecast"><h2>5 Day Forecast</h2></div><br>
+        <table id="forecastBox">
+            <thead>
+                <tr>
+                    <th><span id="day1"></span></th>
+                    <th><span id="day2"></span></th>
+                    <th><span id="day3"></span></th>
+                    <th><span id="day4"></span></th>
+                    <th><span id="day5"></span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td><img id="icon1" src="#" alt="#"><span id="temp1"></span>&deg;F</td>
+                <td><img id="icon2" src="#" alt="#"><span id="temp2"></span>&deg;F</td>
+                <td><img id="icon3" src="#" alt="#"><span id="temp3"></span>&deg;F</td>
+                <td><img id="icon4" src="#" alt="#"><span id="temp4"></span>&deg;F</td>
+                <td><img id="icon5" src="#" alt="#"><span id="temp5"></span>&deg;F</td>
+                </tr>   
+            </tbody>
+        </table><br>
+        <div class="event"></div>
+        <div class="title"><h2>We're more than Napoleon Dynamite</h2></div>
+        <div>
+                <img class="byui" src="images/leaves.jpg" alt="Children playing in leaves">
+                
+                            <p class="text">
+            Welcome to the home of Napoleon Dynamite - the sleeper hit movie of 2004.
+        We still celebrate that success with a festival in the summer, recreating the Tetherball 
+        Tournament, Tater Tot eating contest, Moon Boot dance and Football throwing contest from 
+        the movie, but that's not all we have to offer.</p>
+        <p class="text">In July we have the Franklin County Parade and the Famous Preston Night rodeo.  There's nothing 
+        better than taking in the sites during the day and then coming out to relax with great food 
+        and even better entertainment as you watch the barrel racing and calf roping, and of course 
+        it wouldn't be a rodeo without bull riding.</p>
+        <p class="text">We look forward to seeing you here in our lovely little town of 6,000 people.  
+        There's something to do for everyone and it's not hard finding the space to enjoy whatever you want 
+        to do to relax.  Pack plenty of clothes though, because once you come to Preston you may just not want to leave.
+        </p>
+            <br><br><br>
+        </div>
+        <div class="contact">
+                <img class="prestonMap" src="/images/preston.JPG" alt="map of Preston Idaho">
+                <div class="preston">
+                  <div>
+                    <address>
+                      <strong>Weather You Like It</strong><br>17511 Ridgemont St<br>Preston, ID 83263<br>208.208.0208<br>
+                    </address>  
+                  </div>   
+                </div> 
+              </div>
+    </main>
+    <footer>
+                    &copy; Weather You Like It | Greg Corbitt
+                    <p id="today"></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/towns.js"></script>
+    <script src="js/currentweather.js"></script>
+    
+</body>
+
+</html>

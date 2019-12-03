@@ -158,7 +158,7 @@ nav ul li.active a {
     color: #f5f104;
 }
 
-/* summary box 
+/* summary box */
 .summary {
     position: absolute;
     top: 25px;
@@ -179,7 +179,7 @@ nav ul li.active a {
     font-size: 1.3em;
 }
 
-/* five day forecast box 
+/* five day forecast box */
 .forecast {
     display: none;
     color: #2365ae;
@@ -218,7 +218,7 @@ nav ul li.active a {
     padding: 0 0 12px;
   }
 
-  /* article section 
+  /* article section */
   .title {
     display: block;
     color: #2365ae;
@@ -236,7 +236,7 @@ nav ul li.active a {
     padding: 20px;
 }
 
-/* contact section and area map 
+/* contact section and area map */
 .contact {
     display: flex;
     flex-direction: row;
@@ -259,7 +259,7 @@ nav ul li.active a {
     align-items: center;
 }
 
-/*weather gallery
+/* weather gallery */
 
 #gallery {
     display: grid;
@@ -282,7 +282,7 @@ img {
     transition: filter 1.5s;
 }
 
-/*Storm Center
+/* Storm Center */
 
 form {
     max-width: 1080px;
@@ -351,7 +351,7 @@ form label.severity {
     padding: 20px;
 }
 
-/* Thank you page 
+/* Thank you page */
 
 .thanks {
     color: #2365ae;

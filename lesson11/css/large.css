@@ -1,0 +1,61 @@
+@media only screen and (min-width: 60em) {
+    main {
+        max-width: 60em;
+        margin: auto;
+    }
+
+    footer {
+        max-width: 73em;
+        margin: auto;
+    }
+    
+    .register {
+        font-size: 1.4em;
+    }
+    
+    .cropland {
+        height: 300px;
+    }
+    
+    .contact {
+        max-width: 60em;
+        margin: auto;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    
+    .towns {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        margin: 10px;
+    }
+    
+    section img {
+        width: 90%;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    main section {
+        display: block;
+        margin: 10px;
+    }
+
+    #gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 65em;
+        justify-content: center;   
+    }
+    
+    #gallery figure:hover {
+        box-shadow: 0 0 50px #2365ae;
+    }
+    
+    }

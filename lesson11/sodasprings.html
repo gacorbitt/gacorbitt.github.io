@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preston Site Page in CIT 230: Web Front-End Development at Brigham Young University-Idaho">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soda Springs</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body onload="banner()">
+        <aside id="banner">
+          <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </aside>
+    <header>
+            <picture>
+                <img src="/images/weather2.png" alt="Logo">
+            </picture>
+            <section class="headings">
+                <h1>Weather You Like It</h1>
+                <div class="motto">The Layer You Need in Idaho</div>
+            </section>
+        </header>
+    <nav>
+            <ul id="primaryNav" class="register hide">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="/lesson11/home.html">Home</a></li>
+                    <li><a href="/lesson11/preston.html">Preston</a></li>
+                    <li class="active"><a href="/lesson11/sodasprings.html">Soda Springs</a></li>
+                    <li><a href="/lesson11/fishhaven.html">Fish Haven</a></li>
+                    <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+                    <li><a href="/lesson11/gallery.html">Gallery</a></li>
+                </ul>
+    </nav><br>
+    <main>
+        <div class="areaName"><h1>Soda Springs Idaho</h1></div><br>
+        <div class="local">
+            <figure class="resp">
+                <img src="images/sodasprings.jpg" alt="Soda Springs" sizes="100vw"
+                srcset="images/sodasprings400.jpg 400w,
+                     images/sodasprings800.jpg 800w,
+                     images/sodasprings1080.jpg 1080w,">
+            </figure><br>
+            <section class="summary">
+                <h2>Weather Summary</h2>
+                <div>Currently: <span id="current"></span></div>
+                <div>Todays High: <span id="high"></span>&deg;F</div>
+                <div>Wind Speed: <span id="windSpeed"></span> mph</div>
+                <div>Wind Chill: <span id="chilly"></span></div>
+                <div>Humidity: <span id="humidity"></span>&#37</div>
+            </section>
+        </div><br>
+        <div class="forecast"><h2>5 Day Forecast</h2></div><br>
+        <table id="forecastBox">
+            <thead>
+                <tr>
+                    <th><span id="day1"></span></th>
+                    <th><span id="day2"></span></th>
+                    <th><span id="day3"></span></th>
+                    <th><span id="day4"></span></th>
+                    <th><span id="day5"></span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td><img id="icon1" src="#" alt="#"><span id="temp1"></span>&deg;F</td>
+                <td><img id="icon2" src="#" alt="#"><span id="temp2"></span>&deg;F</td>
+                <td><img id="icon3" src="#" alt="#"><span id="temp3"></span>&deg;F</td>
+                <td><img id="icon4" src="#" alt="#"><span id="temp4"></span>&deg;F</td>
+                <td><img id="icon5" src="#" alt="#"><span id="temp5"></span>&deg;F</td>
+                </tr>   
+            </tbody>
+        </table><br>
+        <div class="title"><h2>Biggest Little City in Idaho</h2></div>
+        <div>
+                <img class="byui" src="images/walking.jpg" alt="Man and woman walking dog">
+                
+                            <p class="text">
+            At just over 3,000 people, when you visit Soda Springs you'll feel right at home with everyone 
+            you meet.  That's why we call ourselves the biggest little city in Idaho.  Everyone treats everyone 
+            like family here, and we wouldn't want it any other way.</p>
+            <p class="text">Soda Springs is nestled down at the base of the Rocky Mountains in Caribou Couty.  
+            From the moment you enter the town you'll realize where wew get our name.  When the town was established 
+            back in the early 1900's there were hundreds of carbonated springs located all over the area.  This was 
+            a frequent stop for indian tribes and a landmark for the Oregon Trail.</p>
+            <p class="text">We even have our own geyser that goes off every hour and is as powerful today as the 
+            day it was capped.  Come and see your Idaho family, you'll be glad you did.</p>
+            <br><br><br>
+        </div>
+        <div class="contact">
+                <img class="prestonMap" src="/images/preston.JPG" alt="map of Preston Idaho">
+                <div class="preston">
+                  <div>
+                    <address>
+                      <strong>Weather You Like It</strong><br>17511 Ridgemont St<br>Preston, ID 83263<br>208.208.0208<br>
+                    </address>  
+                  </div>   
+                </div> 
+              </div>
+    </main>
+    <footer>
+                    &copy; Weather You Like It | Greg Corbitt
+                    <p id="today"></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/towns.js"></script>
+    <script src="js/currentweather.js"></script>
+    
+</body>
+
+</html>
