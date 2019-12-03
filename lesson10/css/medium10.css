@@ -40,36 +40,50 @@
 	.summary p {
 		font-size: 1.3em;
 	}
+	
 	.forecast {
 		display: block;
-		color: #2365ae;
-		text-align: center;
-		padding: 10px;
-		justify-content: center;
-	  }
-	  .forecastBox {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		align-items: stretch;
-		width: 700px;
-		height: 100px;
-		outline: 2px solid black;
-		background-color: #2365ae;
-	  }
-	  .forecastBox > div{
-		background-color: #f5f104;
-		
-		text-align: center;
-		outline: 1px solid black;
-	  }
-	  .day {
-		font-size: 1.5em;
-	  }
-	  .temp {
+		max-width: 65em;
+		align-content: center;
 		font-size: 2em;
-		padding: 0 0 12px;
+		text-align: center;
+		background-color: #f5f104; 
+		border: 2px solid black; 
+		padding: 20px;
+		color: black;
+	}
+	
+	#forecastBox {
+		display: block;
+		width: 75%;
+		border-collapse: collapse;
+		margin: auto;
 	  }
+	  
+	#forecastBox th {
+		font-size: 1.5em;
+		font-weight: bold;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+		background-color: #2365ae;
+		color: black;
+	  }
+
+	#forecastBox td {
+		font-size: 2rem;
+		font-weight: bold;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+		background-color: white;
+		color: #d36135;
+	  }
+
+	#forecastBox td, #forecastBox th {
+		border: 2px solid black;
+	  }
+
 	  .article {
 		  display: float;
 	  }

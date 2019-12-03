@@ -48,27 +48,35 @@
                      images/Franklin1080.jpeg 1080w,">
             </figure><br>
             <section class="summary">
-                <h2>Weather Summary</h2>
-                <div>Currently: <span id="current"></span></div>
-                <div>Todays High: <span id="high">&deg;F</span></div>
-                <div>Wind Speed: <span id="windSpeed"> mph</span></div>
-                <div>Wind Chill: <span id="windChill"></span></div>
-                <div>Humidity: <span id="humidity">&percnt</span></div>
-            </section>
-        </div>
-        <div class="forecast"><h2>5 Day Forecast</h2></div>
-        <div class="forecastBox">
-            <div  class="day" id="day0"></div>
-            <div  class="day" id="day1"></div>
-            <div  class="day" id="day2"></div>
-            <div  class="day" id="day3"></div>
-            <div  class="day" id="day4"></div>
-            <div  class="temp"><span id="temp0"></span>&deg;F</div>
-            <div  class="temp"><span id="temp1"></span>&deg;F</div>
-            <div  class="temp"><span id="temp2"></span>&deg;F</div>
-            <div  class="temp"><span id="temp3"></span>&deg;F</div>
-            <div  class="temp"><span id="temp4"></span>&deg;F</div>
-        </div><br><br><br><br>
+                    <h2>Weather Summary</h2>
+                    <div>Currently: <span id="current"></span></div>
+                    <div>Todays High: <span id="high"></span>&deg;F</div>
+                    <div>Wind Speed: <span id="windSpeed"></span> mph</div>
+                    <div>Wind Chill: <span id="chilly"></span></div>
+                    <div>Humidity: <span id="humidity"></span>&#37</div>
+                </section>
+            </div><br>
+            <div class="forecast"><h2>5 Day Forecast</h2></div><br>
+            <table id="forecastBox">
+                <thead>
+                    <tr>
+                        <th><span id="day1"></span></th>
+                        <th><span id="day2"></span></th>
+                        <th><span id="day3"></span></th>
+                        <th><span id="day4"></span></th>
+                        <th><span id="day5"></span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td><img id="icon1" src="#" alt="#"><span id="temp1"></span>&deg;F</td>
+                    <td><img id="icon2" src="#" alt="#"><span id="temp2"></span>&deg;F</td>
+                    <td><img id="icon3" src="#" alt="#"><span id="temp3"></span>&deg;F</td>
+                    <td><img id="icon4" src="#" alt="#"><span id="temp4"></span>&deg;F</td>
+                    <td><img id="icon5" src="#" alt="#"><span id="temp5"></span>&deg;F</td>
+                    </tr>   
+                </tbody>
+            </table><br>
         <div class="title"><h2>About BYUI</h2></div>
         <div>
                 <img class="byui" src="/images/John_Taylor_building.jpg" alt="John Taylor building at BYUI">
@@ -102,7 +110,6 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/windchill10.js"></script>
     <script src="js/banner10.js"></script>
     <script src="js/menu10.js"></script>
     <script src="js/date10.js"></script>
