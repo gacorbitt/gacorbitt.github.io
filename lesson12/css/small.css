@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+element.style {    
+}
+body {
+    font-size: 16px;
+    font-family: "Big Shoulder Display", Arial, cursive;
+}
+header {
+    font-size: .7em;
+    height: 180px;
+}
+header, footer {
+    color: black;
+    background-color: #f4ecbb;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid #eecfd4;
+
+}
+footer {
+    font-size: .6em;
+    height: 100%;
+    background-color: #caf4bc;
+}
+nav {
+    background-color: #e4e5e3;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #eecfd4;
+    margin-top: 10px;
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+nav a:hover {
+    color: black;
+    background-color: #b9c5ff;
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    font-family: 'Quicksand', sans-serif;
+}
+main {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+main ul {
+    text-align: left;
+}
+table {
+    max-width: 60rem;
+}
+table, td {
+    border: 2px solid #000;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: .8em;
+    margin: auto;
+}
+td {
+    padding: 5px;
+}
+.scenario {
+    list-style-type: none;
+    font-size: .8em;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+blockquote {
+    float: left;
+    width: 275px;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+}
+tr:nth-child(1) {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+tr:nth-child(2) {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+tr:nth-child(3) {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+tr:nth-child(4) {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+tr:nth-child(5) {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+tr:nth-child(6) {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
