@@ -1,0 +1,55 @@
+@media only screen and (min-width: 34em) {
+
+.gallery {
+    grid-template-columns: 1fr 1fr;
+    max-width: 60em;
+    height: auto;
+    justify-content: center;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    grid-gap: 10px;   
+}
+
+.stay {
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+
+#primaryNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.byuiimg {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.temple {
+    max-width: 80%;
+    margin: auto;
+
+}
+
+footer {
+    max-width: 80%;
+    margin: auto;
+}
+
+.field {
+    max-width: 80%;
+    margin: auto;
+}
+
+}

@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css?family=Arizonia|Cinzel|Open+Sans&display=swap');
+element.style {
+}
+
+body {
+    font-size: 16px;
+}
+
+/* -------------------- Header and Footer -------------------- */
+#logo {
+    width: 100px;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #841c26;
+    font-family: 'Arizonia', cursive;
+    color: #e3c16f;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.flex-reserve {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #946846;
+}
+
+.reserve {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3c16f;
+    width: 60%;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #841c26;
+    font-family: 'Cinzel', serif;
+}
+
+.reserve a:hover {
+    background-color: #841c26;
+    color: #e3c16f;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #841c26;
+    color: #e3c16f;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    font-size: 1em;
+    border-top: 2px solid #946846;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.call {
+    list-style-type: none;
+    color: #e3c16f;
+    text-decoration: none;
+}
+
+#year {
+    align-items: center;
+    justify-content: center;
+}
+
+/* -------------------- Navigation Bar -------------------- */
+
+nav {
+    background-color: #946846;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+#primaryNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#primaryNav li:first-child {
+    display: block;
+}
+
+#primaryNav li {
+    display: block;
+}
+
+#primaryNav .active {
+    border-bottom: 5px solid #841c26;
+}
+
+#primaryNav a {
+    display: block;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: #841c26;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    background-color: #e3c16f;
+    color: #e3c16f;
+}
+
+/* ------------------- Home Page -------------------- */
+
+.stay {
+    margin: 20px;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: 'Arizonia', cursive;
+    padding: 10px;
+    background-color: #e3c16f;
+    color: #946846;
+}
+
+.byuiimg {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.temple {
+    font-family: 'Cinzel', cursive;
+    text-align: center;
+    background-color: #946846;
+    padding: 20px;
+    border: 1px solid black;
+
+}
+
+.feature {
+    text-align: center;
+    font-size: 1.3em;
+    margin: auto;
+    background-color: #946846;
+    width: 80%;
+    border: 1px solid black;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.blessing {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.family {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.font {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.forever {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.leaders {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.room {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* -------------------- Reservation Page -------------------- */
+
+.book {
+    text-align: center;
+    color: #841c26;
+}
+
+.booking {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Cinzel", serif;
+    font-weight: bold;
+  }
+  
+  .booking {
+    max-width: 34em;
+    margin: 0 auto;
+  }
+  
+  .booking li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: black;
+  }
+  
+  .booking > li:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  
+  .booking li label,
+  .booking li p {
+    padding: 20px;
+    font-weight: bold;
+  }
+  
+  .booking > li > label,
+  .booking li p {
+    flex: 1 0 120px;
+    max-width: 200px;
+  }
+
+  fieldset {
+      border: 5px solid #841c26;
+      border-radius: 5px;
+      background-color: #e3c16f
+  }
+  
+  .booking > li > label + *{
+    flex: 1 0 200px;
+  }
+  
+  .booking li p {
+    margin: 0;
+  }
+  
+  .booking li textarea {
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  .booking li input{
+      font-size: 1em;
+      max-width: 500px;
+  }
+  .booking li button {
+      margin: 25px;
+      padding: 20px;
+      background: #e3c16f;
+      color: #841c26;
+      border-radius: 5px;
+      font-weight: bold;
+  }
+
+  /* -------------------- Services Page -------------------- */
+
+  .lobby {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.free {
+    font-family: 'Arizonia', cursive;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.services {
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid black;
+    margin: 20px;
+    align-items: center;
+    padding: 20px;
+    font-size: 1em;
+}
+
+/* -------------------- Full-time Missionary Page -------------------- */
+
+.work {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    margin: 20px;
+}
+  
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.bedroom {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+
+.bathroom {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+
+.living {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.text p::first-letter {
+    font-size: xx-large;
+}
+
+/* -------------------- Reception Page -------------------- */
+
+.catering {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+
+.wedding {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+
+/* -------------------- Contact Us Page -------------------- */
+
+.contact {
+    text-align: center;
+    color: #841c26;
+}
+
+.questions {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Cinzel", serif;
+    font-weight: bold;
+  }
+
+.questions > li > label + *{
+    flex: 1 0 200px;
+  }
+  
+.questions li p {
+    margin: 0;
+  }
+  
+.questions li textarea {
+    padding: 10px;
+    font-size: 1em;
+    max-width: 500px;
+  }
+  
+.questions li input{
+      font-size: 1em;
+      max-width: 500px;
+  }
+
+.questions li button {
+      margin: 25px;
+      padding: 20px;
+      color: #e3c16f;
+      background-color: #841c26;
+      border-radius: 5px;
+      font-weight: bold;
+  }
+
+.questions li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: black;
+  }
+  
+.questions > li:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  
+.questions li label,
+.questions li p {
+    padding: 20px;
+    font-weight: bold;
+  }
+  
+.questions > li > label,
+.questions li p {
+    flex: 1 0 120px;
+    max-width: 200px;
+  }
+
+/* -------------------- Temples Page -------------------- */
+
+.temple {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.temples p {
+    font-size: 1em;
+}
+
+.temples {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-gap: 20px;
+    
+}
+.templeinfo ul li {
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.templeinfo img {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+}
+
+.one, .schedule {
+    border: 5px solid #946846;
+    border-radius: 5px;
+    background-color: #e3c16f;
+}
+
