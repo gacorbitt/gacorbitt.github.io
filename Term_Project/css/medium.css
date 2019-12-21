@@ -1,7 +1,7 @@
 @media only screen and (min-width: 34em) {
 
 .gallery {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     max-width: 60em;
     height: auto;
     justify-content: center;
@@ -50,6 +50,32 @@ footer {
 .field {
     max-width: 80%;
     margin: auto;
+}
+
+.flex-reserve {
+    font-size: 1.5em;
+}
+
+.services {
+    max-width: 40em;
+}
+
+.tname {
+    font-size: 2em;
+}
+
+.tinfo {
+    font-size: 1.5em;
+}
+
+.hero {
+    max-width: 70%;
+}
+
+.temples{
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 }
